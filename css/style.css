@@ -1,0 +1,153 @@
+body {
+	background-color: #C1E5D0;
+}
+
+article {
+	background-color: white;
+	width: 1280px;
+	display: block;
+    margin: 0 auto;
+}
+
+#article {
+	margin-top: 110px;
+}
+
+header {
+	display: flex;
+	background-color: #189564;
+	width: 1540px;
+}
+
+#header {
+	position:fixed;
+	width:100%;
+	top:0;
+}
+
+.logo {
+	margin-left: 32px;
+}
+
+ul {
+	display: flex;
+	flex-direction: row;
+	margin-left: 550px; 
+	margin-top: 40px;
+}
+
+li {
+	font-family: "Catamaran";
+	color: white;
+	text-transform: uppercase;
+	font-size: 15px;
+   	margin:10px;
+	-webkit-transition: 0.5s; 
+    transition: 0.5s;
+}
+
+li:hover {
+	text-decoration: underline;
+	color: #00ff6a;
+}
+
+.promo {
+	display: block;
+    margin: 0 auto;
+}
+
+p {
+	font-family: "Catamaran";
+	line-height: 20px;
+	font-size: 18px;
+	text-align: justify;
+	margin: 0 auto;
+	text-align-last: center;
+}
+
+h1 {
+	font-family: "Catamaran";
+	font-weight:bold;
+	font-size: 30px;
+	text-transform: uppercase;
+	margin-bottom: 16px;
+	text-align: center;
+}
+
+h3 {
+	font-family: "Catamaran";
+	font-weight:bold;
+	font-size: 20px;
+	color: #00d07a;
+	text-transform: uppercase;
+	margin-bottom: 16px;
+	text-align: center;
+}
+
+section {
+	margin: 64px;
+	width: 2000px;
+}
+
+a {
+	color: #189564;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #189564;
+	text-decoration: none;
+}
+
+
+.txt {
+	text-align: justify;
+	margin: 0 auto;
+	text-align-last: center;
+}
+
+aside {
+	margin: 56px;
+}
+
+.aside1 {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 48px;
+	width: 498px;
+}
+
+.aside2 {
+	display: flex;
+	flex-direction: row;
+}
+
+.orden {
+	display: flex;
+}
+
+.margen {
+	margin-top: 25px;
+	margin-left: 10px;
+}
+
+.redes {
+	display: flex;
+	justify-content: center;
+}
+
+footer {
+	width: 1280px;
+	display: block;
+    margin: 0 auto;
+	background-color: #189564;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+.footer {
+	color: white;
+	font-size: 10px;
+	margin-left: 16px;
+	text-align: center;
+}
